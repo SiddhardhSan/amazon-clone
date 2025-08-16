@@ -1,0 +1,133 @@
+*{
+    border:0px;
+    border: border-box;
+    margin:0px;
+    font-style: arial;
+
+}
+.nav-container{
+    height: 60px;
+    background-color: #0F1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    p
+    height:60px;
+    width:111px;
+
+}
+.logo{
+    /* padding-bottom: 14px; */
+    height: 52px;
+    width:100%;
+    background-image:url(amazonLogo.jpeg);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.border{
+    border:3px solid transparent;
+}
+.border:hover{
+    border:3px solid white;
+
+}
+.address{
+    /* border:3px solid transparent; */
+    height:48px;
+    width:85px;
+    padding-left: 3px;
+    padding-top:7px;
+
+}
+.country{
+    display:flex;
+    /* font-size: ;*/
+    font-size: 17px;
+    
+} 
+.delivertotxt{
+    
+    font-size: 12px;
+}
+.searching{
+    display: flex;
+    height:60px;
+    width:700px;
+    align-items:center;
+    
+
+
+}
+.selecting{
+    
+    height:48px;
+    width:52px;
+    font-size:14px;
+    
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchIcon{
+    height:48px;
+    width:52px;
+    border:none;
+    background-color: #c5bc5f;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.searchbar{
+    width:100%;
+    height: 45px;
+    font-size: 19px;
+
+    border:none;
+}
+.langselector{
+    display:flex;
+    align-items:center;
+    height:45px;
+    width: 46px;
+}
+p{
+    margin:0px;
+    border:0px;
+}
+.signin{
+    height:50px;
+    width:118px;
+    display:flex;
+    flex-direction:column;
+    align-items:center; 
+    text-align:left;
+}
+#signinfont{
+    font-size:1.rem;
+
+}
+
+.returns{
+    height:50px;
+    width:75px
+
+    
+
+}
+span{
+    font-size:0.8rem;
+    text-align:left;
+}
+
