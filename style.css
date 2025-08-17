@@ -14,7 +14,7 @@
     justify-content: space-evenly;
 }
 .nav-logo{
-    p
+    
     height:60px;
     width:111px;
 
@@ -30,7 +30,7 @@
     
 }
 .border{
-    border:3px solid transparent;
+    border:2px solid transparent;
 }
 .border:hover{
     border:3px solid white;
@@ -57,15 +57,18 @@
 .searching{
     display: flex;
     height:60px;
-    width:700px;
+    width:935px;
     align-items:center;
     
 
 
 }
+.searchbar:hover{
+    border:3.5px solid rgb(247, 218, 0);
+}
 .selecting{
     
-    height:48px;
+    height:45px;
     width:52px;
     font-size:14px;
     
@@ -78,7 +81,7 @@
 }
 
 .searchIcon{
-    height:48px;
+    height:45px;
     width:52px;
     border:none;
     background-color: #c5bc5f;
@@ -91,7 +94,7 @@
 }
 .searchbar{
     width:100%;
-    height: 45px;
+    height: 43px;
     font-size: 19px;
 
     border:none;
@@ -102,27 +105,36 @@
     height:45px;
     width: 46px;
 }
-p{
+/* p{
     margin:0px;
     border:0px;
-}
+} */
 .signin{
-    height:50px;
-    width:118px;
-    display:flex;
+    
+    /* display:flex;
     flex-direction:column;
-    align-items:center; 
-    text-align:left;
+    align-items:center;  */
+    #leftalign{
+        text-align:left;
+    }
+    /* padding-top: 1rem; */
+}
+.signinalign{
+    height:58px;
+    width:118px;
+    display: flex;
+    align-items:center;
 }
 #signinfont{
-    font-size:1.rem;
+    font-size:1rem;
 
 }
 
-.returns{
-    height:50px;
-    width:75px
-
+.returnsalignment{
+    height:58px;
+    width:75px;
+    display:flex;
+    align-items:center;
     
 
 }
@@ -130,4 +142,43 @@ span{
     font-size:0.8rem;
     text-align:left;
 }
+.cartbox{
+        height:50px;
+        width:85px;
+        display:flex;
+        align-items: center;
 
+}
+.carticon{
+    font-size:1.8rem;
+    
+}
+.carttxt{
+    display:flex;
+    /* align-items:flex-end;    */
+
+}
+/* panel */
+.panel{
+    
+    display: flex;
+    align-items: center;
+    height:40px;
+    width:100%;
+    background-color: #0F1111;
+
+
+    
+
+}
+.panel-menu{
+    display:flex;
+    color:aliceblue;
+}
+.panel-txt{
+    text-decoration: none;
+    color:aliceblue;
+    margin-left:22px;
+    font-size: 16px;
+
+}
