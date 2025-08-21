@@ -206,7 +206,7 @@ span{
 
     font-size: 1.2rem;
     font-weight: 700;
-    border:2px solid black;
+    /* border:2px solid black; */
 
 }
 .pro1-grid1{
@@ -323,3 +323,129 @@ span{
     color:rgba(35, 85, 139, 0.946);;
     text-decoration:none;
 }
+
+.rowhero2{
+    padding-top: 23px;
+    height:427px;
+    width:vw;
+    background-color: rgb(233, 229, 244);
+    display:flex;
+    justify-content: space-evenly;
+    
+    
+    
+
+}
+.dabba{
+    height: 375px;
+    width:340px;
+    background-color:aliceblue;
+    
+    
+    padding-top: 10px;
+    padding-left:6px;
+    padding-right:6px;
+    padding-bottom: 6px;
+    
+}
+.procaptcha{
+    font-size:1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+    
+}
+.imgofpro{
+    height:280px;
+    width:318px;
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+
+
+}
+.dabba a{
+    /* margin-top: 15px; */
+    text-decoration: none;
+    color: rgb(1, 109, 172);
+    font-size:1rem;
+
+
+
+}
+/* fotter */
+.fotter1panel{
+    background-color:rgb(19, 17, 65);
+    height:50px;
+    width:vw;
+    color:white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 0.83rem;
+    border-top:2px white solid;
+}
+
+.fotterpanel2{
+    height:260px;
+    width:vw;
+    background-color: #0b1b2d;
+    color: white;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.fotterpanel2 ul{
+    margin-top:20px;
+}
+.amalogo{
+    margin-left:265px;
+    background-image: url("amazonlogo2jpg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:68px;
+    width:90px;
+}
+.fotterpanel3{
+    border-top:1.5px solid white;
+    height:70px;
+    width:vw;
+    display:flex;
+    color: white;
+    justify-content: space-evenly;
+    background-color: #0b1b2d;
+    
+    align-items:center; 
+    
+
+}
+.fotterflag{
+    display:flex;
+
+}
+.country{
+    margin-right:265px;
+}
+.lastfotter{
+   
+    display:flex;
+    justify-content:space-between;
+}
+.fotterpanel4{
+    border-top :1.5px solid white;
+    padding-top:14px;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:80px;
+    width:vw;
+    color:white;
+    background-color: #0b1b2d;
+    font-size: 0.75rem;;
+}
+
+
+
